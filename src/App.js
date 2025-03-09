@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useState } from "react";
+import Header from "./Components/Header";
+import Welcome from "./Components/Welcome";
 
 const App = () => {
-  return (
-    <h1>Hello React</h1>
-  )
-}
+  const [hide, setHide] = useState(false);
+  return hide ? <Header /> : <Welcome onComplete={() => setHide(true)} />;
+};
 
-export default App
+export default App;
