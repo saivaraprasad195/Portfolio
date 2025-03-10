@@ -20,15 +20,15 @@ const Welcome = ({ onComplete }) => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="text-2xl sm:text-4xl md:text-6xl lg:text-7xl font-bold my-3"
+        className="text-4xl md:text-6xl lg:text-7xl font-bold my-3"
       >
-        Hi, I'm Sai Varaprasad
+        Hi, I'm Sai
       </motion.h1>
       <motion.h2
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1, duration: 0.8 }}
-        className="text-xl sm:text-3xl md:text-5xl lg:text-6xl my-3 font-medium"
+        className="text-2xl md:text-5xl lg:text-6xl my-3 font-medium"
       >
         A{" "}
         <span className="bg-gradient-to-r from-[#FA5560] via-[#B14BF4] to-[#4D91FF] bg-clip-text text-transparent">
@@ -41,7 +41,7 @@ const Welcome = ({ onComplete }) => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 2, duration: 0.8 }}
-        className="text-lg sm:text-2xl md:text-3xl lg:text-4xl mt-2"
+        className="text-xl md:text-3xl lg:text-4xl mt-2"
       >
         Welcome to my Portfolio
       </motion.h3>
