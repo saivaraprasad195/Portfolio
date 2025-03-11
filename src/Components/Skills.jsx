@@ -14,7 +14,7 @@ const Skills = () => {
       id="skills"
       className="max-w-[1200px] mx-auto bg-[rgba(33,36,40,0.5)] flex flex-col items-center justify-center gap-10 px-5 py-10"
     >
-      <motion.h3 className="text-6xl font-semibold text-[#DC2626]">
+      <motion.h3 className="text-5xl font-semibold">
         My Skills
       </motion.h3>
       {Object.entries(skills).map(([category, skillsList]) => {
