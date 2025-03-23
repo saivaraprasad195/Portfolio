@@ -7,12 +7,21 @@ export const fadeInUp = {
   },
 };
 
+export const fadeFromLeft = {
+  hidden: { opacity: 0, x: -40 },
+  visible: {
+    opacity: 1,
+    x: 0,
+    transition: { duration: 0.7, ease: "easeOut" },
+  },
+};
+
 export const staggerContainer = {
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
     transition: {
-      staggerChildren: 0.5,
+      staggerChildren: 0.3,
     },
   },
 };
@@ -23,24 +32,23 @@ export const listItemVariants = {
 };
 
 export const listContainerStagger = {
-  hidden: { opacity: 0, y:10 },
+  hidden: { opacity: 0, y: 10 },
   visible: {
     opacity: 1,
-    y:0,
+    y: 0,
     transition: {
-      duration: 1,
-      staggerChildren: 0.2, // Delay between each child animation
+      staggerChildren: 0.1, // Delay between each child animation
     },
   },
 };
 
 export const mobileNavStagger = {
-  hidden: { opacity: 0, height:0, },
+  hidden: { opacity: 0, height: 0 },
   visible: {
     opacity: 1,
-    height:200,
+    height: 220,
     transition: {
-      staggerChildren: 0.3,
+      staggerChildren: 0.2,
     },
   },
 };

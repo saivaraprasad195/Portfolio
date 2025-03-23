@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <motion.section
       id="projects"
-      className="max-w-[1200px] mx-auto bg-[rgba(33,36,40,0.5)] px-9 py-10"
+      className="max-w-[1200px] mx-auto bg-[rgba(33,36,40,0.5)] px-9 py-10 border-b-[1px] border-b-gray-600"
       variants={staggerContainer}
     >
       <motion.h3 className="text-5xl font-semibold text-center mb-10">

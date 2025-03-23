@@ -31,20 +31,28 @@ const Header = () => {
           Home
         </motion.a>
         <motion.a
-          href="#skills"
-          whileHover={{ color: "#DC2626", scale: 1.2 }}
-          variants={fadeInUp}
-          className=" text-nowrap rounded-2xl bg-[rgba(166,166,166,0.3)] px-3 py-1 backdrop-blur-1"
-        >
-          Skills
-        </motion.a>
-        <motion.a
           href="#projects"
           whileHover={{ color: "#DC2626", scale: 1.2 }}
           variants={fadeInUp}
           className=" text-nowrap rounded-2xl bg-[rgba(166,166,166,0.3)] px-3 py-1 backdrop-blur-1"
         >
           Projects
+        </motion.a>
+        <motion.a
+          href="#work"
+          whileHover={{ color: "#DC2626", scale: 1.2 }}
+          variants={fadeInUp}
+          className=" text-nowrap rounded-2xl bg-[rgba(166,166,166,0.3)] px-3 py-1 backdrop-blur-1"
+        >
+          Work
+        </motion.a>
+        <motion.a
+          href="#skills"
+          whileHover={{ color: "#DC2626", scale: 1.2 }}
+          variants={fadeInUp}
+          className=" text-nowrap rounded-2xl bg-[rgba(166,166,166,0.3)] px-3 py-1 backdrop-blur-1"
+        >
+          Skills
         </motion.a>
         <motion.a
           href="#contactme"
@@ -72,37 +80,46 @@ const Header = () => {
           initial="hidden"
           animate={"visible"}
           variants={mobileNavStagger}
-          className="absolute w-full top-full right-0 h-[200px] flex flex-col items-center py-4 space-y-4 bg-[rgba(0,0,0,0.8)] md:hidden"
+          className="absolute w-full top-full right-0 h-[230px] flex flex-col items-center py-4 space-y-3 bg-[rgba(0,0,0,0.8)]"
         >
           <motion.a
             href="#home"
             variants={fadeInUp}
             whileHover={{ color: "#DC2626", scale: 1.2 }}
-            className="text-lg "
+            className="text-lg"
           >
             Home
+          </motion.a>
+
+          <motion.a
+            href="#projects"
+            variants={fadeInUp}
+            whileHover={{ color: "#DC2626", scale: 1.2 }}
+            className="text-lg"
+          >
+            Projects
+          </motion.a>
+          <motion.a
+            href="#work"
+            variants={fadeInUp}
+            whileHover={{ color: "#DC2626", scale: 1.2 }}
+            className="text-lg"
+          >
+            Work
           </motion.a>
           <motion.a
             href="#skills"
             variants={fadeInUp}
             whileHover={{ color: "#DC2626", scale: 1.2 }}
-            className="text-lg "
+            className="text-lg"
           >
             Skills
-          </motion.a>
-          <motion.a
-            href="#projects"
-            variants={fadeInUp}
-            whileHover={{ color: "#DC2626", scale: 1.2 }}
-            className="text-lg "
-          >
-            Projects
           </motion.a>
           <motion.a
             href="#contactme"
             variants={fadeInUp}
             whileHover={{ color: "#DC2626", scale: 1.2 }}
-            className="text-lg "
+            className="text-lg"
           >
             Contact Me
           </motion.a>

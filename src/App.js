@@ -5,6 +5,8 @@ import Hero from "./Components/Hero";
 import Skills from "./Components/Skills";
 import Projects from "./Components/Projects";
 import Experience from "./Components/Experience";
+import ContactMe from "./Components/ContactMe";
+import Footer from "./Components/Footer";
 
 const App = () => {
   const skillsRef = useRef(null);
@@ -24,6 +26,8 @@ const App = () => {
       <Projects />
       <Experience />
       <Skills />
+      <ContactMe />
+      <Footer />
     </main>
   );
 };
