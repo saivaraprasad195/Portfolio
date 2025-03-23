@@ -22,7 +22,7 @@ const Welcome = ({ onComplete }) => {
         transition={{ duration: 0.8 }}
         className="text-4xl md:text-6xl lg:text-7xl font-bold my-3"
       >
-        Hi, I'm Sai
+        Hi, I'm Sai Varaprasad
       </motion.h1>
       <motion.h2
         initial={{ opacity: 0, y: 20 }}

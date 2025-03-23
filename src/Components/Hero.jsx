@@ -47,15 +47,17 @@ const Hero = () => {
         </motion.p>
         {/* Download button and Icons */}
         <motion.div className="flex flex-col gap-5 my-3">
-          <motion.button
+          <motion.a
             className="w-[200px] flex items-center gap-2 p-3 bg-purple-600 rounded-xl shadow-lg shadow-gray-950 hover:bg-indigo-500 transition-bg duration-150 "
             variants={fadeInUp}
             whileHover={{ scale: 1.05, y: -3 }}
             whileTap={{ scale: 0.95 }}
+            href="https://drive.google.com/uc?export=download&id=1C-fDJa3xYOI3DlR562mALICnAvfURmd2"
+            download
           >
             <Download />
             <span>Download Resume</span>
-          </motion.button>
+          </motion.a>
 
           <motion.div className="mt-4">
             <span className="font-light text-xl">FIND ME HERE</span>
