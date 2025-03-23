@@ -117,7 +117,7 @@ const Hero = () => {
                 </svg>
               </motion.a>
               <motion.a
-                href=""
+                href="https://www.instagram.com/saivaraprasad295/"
                 target="_blank"
                 whileHover={{ y: -8, color: "#DC2626" }}
                 transition={{ type: "spring", stiffness: 200 }}
@@ -142,7 +142,7 @@ const Hero = () => {
                 </svg>
               </motion.a>
               <motion.a
-                href=""
+                href="mailto:saivaraprasad195@gmail.com"
                 target="_blank"
                 whileHover={{ y: -8, color: "#DC2626" }}
                 transition={{ type: "spring", stiffness: 200 }}
@@ -166,7 +166,7 @@ const Hero = () => {
                 </svg>
               </motion.a>
               <motion.a
-                href=""
+                href="https://x.com/Saivara1999"
                 target="_blank"
                 whileHover={{ y: -8, color: "#DC2626" }}
                 transition={{ type: "spring", stiffness: 200 }}
